@@ -61,7 +61,7 @@ Want to explore the code or run these projects locally?
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/30Days60Projects-HTML-CSS.git
+git clone https://github.com/MohitXCode/30Days60Projects-HTML-CSS.git
 
 # Navigate to the project directory
 cd 30Days60Projects-HTML-CSS
@@ -91,16 +91,13 @@ While this is a personal challenge, suggestions and feedback are always welcome!
 
 Have questions or just want to discuss web development?
 
-- [Twitter/X](https://twitter.com/yourusername)
-- [LinkedIn](https://linkedin.com/in/yourusername)
-- [Personal Website](https://yourwebsite.com)
+- [Twitter/X](https://x.com/MohitxCode)
+- [Instagram](https://www.instagram.com/mohitxcode.io/)
+- [Lens Protcol](https://hey.xyz/u/mohitxcode)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
 <div align="center">
-  <p>Happy coding! 🎉</p>
+  <p>MohitxCode!👨🏻</p>
 </div>
