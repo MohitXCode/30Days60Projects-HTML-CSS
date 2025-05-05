@@ -1,8 +1,8 @@
 # 🚀 30Days60Projects-HTML-CSS
 
 <div align="center">
-  <img src="/api/placeholder/800/300" alt="30Days60Projects Banner" />
-  <br><br>
+  <img src="https://jmp.sh/s/H3YilFfRCuceHKlRVtWu" alt="30Days60Projects Banner" width="800" />
+  <h2>MohitxCode</h2>
   <p><strong>Mastering Frontend Development: A 30-Day Challenge</strong></p>
   <p>Building 60 mini web projects using HTML and CSS to level up skills through consistent practice and creativity.</p>
   
