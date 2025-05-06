@@ -43,8 +43,8 @@ Explore each project individually and view live demos to see them in action:
 |---|---------|-----------|--------------|
 | 001 | ✨ Tribute Website | [Live Demo](https://tribute-website-rt.netlify.app/) | Responsive layout, CSS Grid, Custom typography |
 | 002 | 📝 Job Application | [Live Demo](https://job-application-html-css.netlify.app/) | Form styling, Custom checkboxes, Validation UI |
-| 003 | 🎨 Coming Soon | [In Progress] | - |
-| 004 | 🎨 Coming Soon | [In Progress] | - |
+| 003 | 🚗 VibeWave BMW Gallery | [Live Demo](https://vibewave-bmw-gallery.netlify.app/) | Glitch effect, Gen Z lingo, responsive card design |
+| 004 | 🪐 Cosmic Profile Orb | [Live Demo](https://cosmic-profile-orb.netlify.app/)   | Animated social orbit, glowing UI, responsive |
 | 005 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
