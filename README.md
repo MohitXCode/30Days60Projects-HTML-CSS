@@ -45,8 +45,8 @@ Explore each project individually and view live demos to see them in action:
 | 002 | 📝 Job Application | [Live Demo](https://job-application-html-css.netlify.app/) | Form styling, Custom checkboxes, Validation UI |
 | 003 | 🚗 VibeWave BMW Gallery | [Live Demo](https://bmw-gallery-mohitxcode.netlify.app/) | Glitch effect, Gen Z lingo, responsive card design |
 | 004 | 🪐 Cosmic Profile Orb | [Live Demo](https://cosmic-profile-orb-mohitxcode.netlify.app/)   | Animated social orbit, glowing UI, responsive |
-| 005 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Glitch effect, Gen Z lingo, responsive card design |
-| 006 | 🫠 Daily Mood Tracker | [Live Demo](https://mood-tracker-ui-mohitxcode.netlify.app/)   | Animated social orbit, glowing UI, responsive |
+| 005 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Bold. Playful. Aesthetic. Pricing cards with Gen Z energy and clean responsiveness. |
+| 006 | 🫠 Daily Mood Tracker | [Live Demo](https://mood-tracker-ui-mohitxcode.netlify.app/)   | Aesthetic mood cards with glowing hover vibes and emotional emoji orbit. |
 | 005 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
