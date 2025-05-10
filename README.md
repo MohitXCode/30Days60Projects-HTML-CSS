@@ -48,9 +48,9 @@ Explore each project individually and view live demos to see them in action:
 | 005 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Bold. Playful. Aesthetic. Pricing cards with Gen Z energy and clean responsiveness. |
 | 006 | 🫠 Daily Mood Tracker | [Live Demo](https://mood-tracker-ui-mohitxcode.netlify.app/)   | Aesthetic mood cards with glowing hover vibes and emotional emoji orbit. |
 | 007 | 🎴 iPhone Notification UI  | [Live Demo](----) | 📱 iOS-style notifications, ✨ Glass morphism effects , 🔥 Interactive hover animations |
-| 008 | 🫠 Munchies | Food Delivery for Gen Z | [Live Demo](-----)   | 🌈 Neon gradients , 🍔 Floating food emojis , 📱 Mobile-first layout , ⚡ Animated CTA button |
-| 00 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Bold. Playful. Aesthetic. Pricing cards with Gen Z energy and clean responsiveness. |
-| 00 | 🫠 Daily Mood Tracker | [Live Demo](https://mood-tracker-ui-mohitxcode.netlify.app/)   | Aesthetic mood cards with glowing hover vibes and emotional emoji orbit. |
+| 008 | 🫠 Munchies Food Delivery for Gen Z | [Live Demo](-----)   | 🌈 Neon gradients , 🍔 Floating food emojis , 📱 Mobile-first layout , ⚡ Animated CTA button |
+| 009 | 🌌 Galaxy Flip Profile Card  | [Live Demo](------) | 3D flip effect, Interactive profile card, Hover transitions. |
+| 010 | 📄 Dynamic CSS Resume | [Live Demo](----)   | 	Animated sections, CSS Grid layout, Smooth hover effects. |
 | 00 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Bold. Playful. Aesthetic. Pricing cards with Gen Z energy and clean responsiveness. |
 | 00 | 🫠 Daily Mood Tracker | [Live Demo](https://mood-tracker-ui-mohitxcode.netlify.app/)   | Aesthetic mood cards with glowing hover vibes and emotional emoji orbit. |
 | 00 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Bold. Playful. Aesthetic. Pricing cards with Gen Z energy and clean responsiveness. |
