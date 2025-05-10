@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 6/60 | In Progress: 54/60 |
+| Status | Completed: 10/60 | In Progress: 50/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
