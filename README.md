@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 10/60 | In Progress: 50/60 |
+| Status | Completed: 12/60 | In Progress: 48/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -51,8 +51,8 @@ Explore each project individually and view live demos to see them in action:
 | 008 | 🫠 Munchies Food Delivery for Gen Z | [Live Demo](-----)   | 🌈 Neon gradients , 🍔 Floating food emojis , 📱 Mobile-first layout , ⚡ Animated CTA button |
 | 009 | 🌌 Galaxy Flip Profile Card  | [Live Demo](------) | 3D flip effect, Interactive profile card, Hover transitions. |
 | 010 | 📄 Dynamic CSS Resume | [Live Demo](----)   | 	Animated sections, CSS Grid layout, Smooth hover effects. |
-| 00 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Bold. Playful. Aesthetic. Pricing cards with Gen Z energy and clean responsiveness. |
-| 00 | 🫠 Daily Mood Tracker | [Live Demo](https://mood-tracker-ui-mohitxcode.netlify.app/)   | Aesthetic mood cards with glowing hover vibes and emotional emoji orbit. |
+| 011 | 🪩 Hack the Future 2025  | [Live Demo](---------) | Soft pastel aesthetic. Responsive hackathon invitation page with modern layout. |
+| 012 | ♈ CSS Zodiac Wheel  | [Live Demo](-----)   | Pure CSS zodiac wheel with hover rotation and minimalist constellation theme. |
 | 00 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Bold. Playful. Aesthetic. Pricing cards with Gen Z energy and clean responsiveness. |
 | 00 | 🫠 Daily Mood Tracker | [Live Demo](https://mood-tracker-ui-mohitxcode.netlify.app/)   | Aesthetic mood cards with glowing hover vibes and emotional emoji orbit. |
 | 005 | 🎨 Coming Soon | [In Progress] | - |
