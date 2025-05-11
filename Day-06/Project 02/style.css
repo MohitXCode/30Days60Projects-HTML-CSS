@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.wheel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    transition: transform 1.5s ease-out;
+}
+
+.center-circle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, #f5d742, #f39c12);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px #f5d742;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f0c29;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.sign {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.sign:hover {
+    transform: scale(1.2);
+    z-index: 20;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.sign::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.sign:hover::before {
+    border-color: rgba(255, 255, 255, 0.7);
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.sign-info {
+    position: absolute;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: 30;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sign:hover .sign-info {
+    opacity: 1;
+}
+
+.sign-info h3 {
+    margin-bottom: 8px;
+    color: #f5d742;
+    font-size: 18px;
+}
+
+.sign-info p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.sign-info .dates {
+    margin-top: 8px;
+    font-style: italic;
+    color: #aaa;
+}
+
+.aries {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff6b6b;
+}
+
+.taurus {
+    top: 18%;
+    right: 18%;
+    background-color: #48dbfb;
+}
+
+.gemini {
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    background-color: #1dd1a1;
+}
+
+.cancer {
+    bottom: 18%;
+    right: 18%;
+    background-color: #feca57;
+}
+
+.leo {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff9ff3;
+}
+
+.virgo {
+    bottom: 18%;
+    left: 18%;
+    background-color: #5f27cd;
+}
+
+.libra {
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: #ff9f43;
+}
+
+.scorpio {
+    top: 18%;
+    left: 18%;
+    background-color: #ee5253;
+}
+
+.sagittarius {
+    top: 10%;
+    right: 25%;
+    background-color: #0abde3;
+}
+
+.capricorn {
+    bottom: 25%;
+    right: 25%;
+    background-color: #10ac84;
+}
+
+.aquarius {
+    bottom: 25%;
+    left: 25%;
+    background-color: #5f27cd;
+}
+
+.pisces {
+    top: 25%;
+    left: 25%;
+    background-color: #576574;
+}
+
+.sign::after {
+    content: '';
+    position: absolute;
+    background: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.sign:hover::after {
+    opacity: 0.7;
+}
+
+.aries::after {
+    width: 40px;
+    height: 2px;
+    transform: rotate(45deg);
+}
+
+.taurus::after {
+    width: 30px;
+    height: 2px;
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .sign {
+        width: 50px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .sign-info {
+        width: 150px;
+        padding: 10px;
+    }
+}
