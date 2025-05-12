@@ -1,0 +1,121 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #d1c4e9, #b2dfdb);
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1100px;
+        background: #ffffffcc;
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        padding: 40px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .left-side,
+    .right-side {
+        flex: 1;
+    }
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .details {
+        text-align: center;
+    }
+
+    .details i {
+        font-size: 32px;
+        color: #6a1b9a;
+        margin-bottom: 10px;
+    }
+
+    .details .topic {
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .details .text-one,
+    .details .text-two {
+        color: #555;
+        font-size: 14px;
+    }
+
+    .topic-text {
+        font-size: 26px;
+        font-weight: 700;
+        color: #4a148c;
+        margin-bottom: 10px;
+    }
+
+    .right-side p {
+        font-size: 16px;
+        color: #444;
+        margin-bottom: 20px;
+    }
+
+    .input-box {
+        margin-bottom: 20px;
+    }
+
+    .input-box input,
+    .input-box textarea {
+        width: 100%;
+        padding: 12px 15px;
+        font-size: 15px;
+        border: none;
+        border-radius: 8px;
+        background: #f3f3f3;
+        transition: 0.3s ease;
+    }
+
+    .input-box input:focus,
+    .input-box textarea:focus {
+        outline: none;
+        background: #e0f2f1;
+    }
+
+    .message-box textarea {
+        min-height: 100px;
+        resize: vertical;
+    }
+
+    .button input[type="button"] {
+        padding: 10px 20px;
+        background: #6a1b9a;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .button input[type="button"]:hover {
+        background: #7e57c2;
+    }
+
+    @media screen and (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            padding: 30px;
+        }
+    }
