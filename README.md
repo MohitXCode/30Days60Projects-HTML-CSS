@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 12/60 | In Progress: 48/60 |
+| Status | Completed: 14/60 | In Progress: 46/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -53,8 +53,8 @@ Explore each project individually and view live demos to see them in action:
 | 010 | 📄 Dynamic CSS Resume | [Live Demo](----)   | 	Animated sections, CSS Grid layout, Smooth hover effects. |
 | 011 | 🪩 Hack the Future 2025  | [Live Demo](---------) | Soft pastel aesthetic. Responsive hackathon invitation page with modern layout. |
 | 012 | ♈ CSS Zodiac Wheel  | [Live Demo](-----)   | Pure CSS zodiac wheel with hover rotation and minimalist constellation theme. |
-| 00 | 🎴 Gen Z Pricing Cards  | [Live Demo](https://responsive-pricing-card-mohitxcode.netlify.app/) | Bold. Playful. Aesthetic. Pricing cards with Gen Z energy and clean responsiveness. |
-| 00 | 🫠 Daily Mood Tracker | [Live Demo](https://mood-tracker-ui-mohitxcode.netlify.app/)   | Aesthetic mood cards with glowing hover vibes and emotional emoji orbit. |
+| 013 | 🌦️ Aesthetic Weather Widget | [Live Demo](------) | Dreamy gradients, animated clouds, glassmorphism & day/night toggle. |
+| 014 | 📬 Glass Contact Form | [Live Demo](------)   | Glassmorphism-based contact form with responsive layout and soft icons. |
 | 005 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
