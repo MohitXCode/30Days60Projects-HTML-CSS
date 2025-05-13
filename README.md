@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 14/60 | In Progress: 46/60 |
+| Status | Completed: 16/60 | In Progress: 44/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -55,6 +55,8 @@ Explore each project individually and view live demos to see them in action:
 | 012 | ♈ CSS Zodiac Wheel  | [Live Demo](-----)   | Pure CSS zodiac wheel with hover rotation and minimalist constellation theme. |
 | 013 | 🌦️ Aesthetic Weather Widget | [Live Demo](------) | Dreamy gradients, animated clouds, glassmorphism & day/night toggle. |
 | 014 | 📬 Glass Contact Form | [Live Demo](------)   | Glassmorphism-based contact form with responsive layout and soft icons. |
+| 013 | 🌈 Your Week in Pixels | [Live Demo](------) |  Interactive timeline with vibrant colors, animations, and a dynamic user experience. |
+| 014 | 🐼 Panda Animation | [Live Demo](------)   | Cute panda animation with hover effects, floating, and glowing elements. |
 | 005 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
