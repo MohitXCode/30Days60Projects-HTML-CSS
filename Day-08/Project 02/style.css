@@ -1,0 +1,217 @@
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #2fee68;
+        margin: 0;
+        overflow: hidden;
+        animation: backgroundAnimation 5s infinite alternate;
+    }
+
+    @keyframes backgroundAnimation {
+        0% {
+            background: #4cf13d;
+        }
+
+        50% {
+            background: #f7a1d7;
+        }
+
+        100% {
+            background: #da24eb;
+        }
+    }
+
+    .panda {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        animation: pandaFloat 4s ease-in-out infinite;
+    }
+
+    @keyframes pandaFloat {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-15px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .panda:hover {
+        transform: scale(1.2);
+    }
+
+    .head {
+        position: absolute;
+        width: 200px;
+        height: 180px;
+        background: white;
+        border-radius: 50%;
+        top: 50px;
+        left: 50px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        animation: headBobbing 1s infinite;
+    }
+
+    @keyframes headBobbing {
+        0% {
+            transform: rotate(0);
+        }
+
+        50% {
+            transform: rotate(4deg);
+        }
+
+        100% {
+            transform: rotate(0);
+        }
+    }
+
+
+    .ear {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        background: black;
+        border-radius: 50%;
+        top: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .ear.left {
+        left: 40px;
+    }
+
+    .ear.right {
+        right: 40px;
+    }
+
+    .panda:hover .ear {
+        animation: earShake 0.6s ease-in-out infinite alternate;
+    }
+
+    @keyframes earShake {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(-15deg);
+        }
+
+        100% {
+            transform: rotate(15deg);
+        }
+    }
+
+
+    .eye {
+        position: absolute;
+        width: 60px;
+        height: 80px;
+        background: black;
+        border-radius: 50%;
+        top: 90px;
+        transition: transform 0.3s ease;
+    }
+
+    .eye.left {
+        left: 60px;
+    }
+
+    .eye.right {
+        right: 60px;
+    }
+
+    .eye::before {
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background: white;
+        border-radius: 50%;
+        top: 18px;
+        left: 14px;
+    }
+
+
+    .panda:hover .eye::before {
+        animation: eyeFlicker 0.2s infinite alternate;
+    }
+
+    @keyframes eyeFlicker {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+
+    .nose {
+        position: absolute;
+        width: 30px;
+        height: 20px;
+        background: #333;
+        border-radius: 50%;
+        top: 140px;
+        left: 135px;
+        transition: transform 0.3s ease;
+    }
+
+    .mouth {
+        position: absolute;
+        width: 90px;
+        height: 40px;
+        border-bottom: 4px solid #333;
+        border-radius: 0 0 50% 50%;
+        top: 160px;
+        left: 105px;
+        transition: transform 0.3s ease;
+    }
+
+    .blush {
+        position: absolute;
+        width: 35px;
+        height: 18px;
+        background: #ff87b9;
+        border-radius: 50%;
+        top: 150px;
+        opacity: 0.7;
+        transition: opacity 0.3s ease;
+    }
+
+    .blush.left {
+        left: 50px;
+    }
+
+    .blush.right {
+        right: 50px;
+    }
+
+
+    .panda:hover .head {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 255, 255, 0.8);
+    }
+
+
+    .panda:hover .mouth {
+        border-bottom: 5px solid #333;
+        transform: scaleY(1.3);
+    }
