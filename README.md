@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 16/60 | In Progress: 44/60 |
+| Status | Completed: 18/60 | In Progress: 42/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -55,9 +55,11 @@ Explore each project individually and view live demos to see them in action:
 | 012 | ♈ CSS Zodiac Wheel  | [Live Demo](-----)   | Pure CSS zodiac wheel with hover rotation and minimalist constellation theme. |
 | 013 | 🌦️ Aesthetic Weather Widget | [Live Demo](------) | Dreamy gradients, animated clouds, glassmorphism & day/night toggle. |
 | 014 | 📬 Glass Contact Form | [Live Demo](------)   | Glassmorphism-based contact form with responsive layout and soft icons. |
-| 013 | 🌈 Your Week in Pixels | [Live Demo](------) |  Interactive timeline with vibrant colors, animations, and a dynamic user experience. |
-| 014 | 🐼 Panda Animation | [Live Demo](------)   | Cute panda animation with hover effects, floating, and glowing elements. |
-| 005 | 🎨 Coming Soon | [In Progress] | - |
+| 015 | 🌈 Your Week in Pixels | [Live Demo](------) |  Interactive timeline with vibrant colors, animations, and a dynamic user experience. |
+| 016 | 🐼 Panda Animation | [Live Demo](------)   | Cute panda animation with hover effects, floating, and glowing elements. |
+| 017 | 📝 Personal Blog Card | [Live Demo](------) | Blog card with floating particles, dynamic gradient background, and hover effects. |
+| 018 | 🛒 Apple Shop Checkout | [Live Demo](------)   | Modern checkout UI with product list, coupon, order summary, and contact form. |
+| 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
 ## 💻 Technologies Used
