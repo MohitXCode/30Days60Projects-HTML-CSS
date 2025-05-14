@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Shop Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="branding">@mohitxcode</div>
+
+  <div class="checkout-container">
+    <div class="checkout-header">
+      <div class="checkout-title">Checkout <span class="items-badge">3 ITEMS</span></div>
+    </div>
+
+    <div class="checkout-content">
+      <div class="product-summary">
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./IPHONE PRO.webp" alt="iPhone 12 Pro">
+          </div>
+          <div class="product-details">
+            <div class="product-name">iPhone 12 Pro</div>
+            <div class="product-color">Golden</div>
+            <div class="product-quantity">x 1</div>
+          </div>
+          <div class="product-price">$999.00</div>
+          <button class="remove-item">×</button>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./watch.jpg" alt="Apple Watch">
+          </div>
+          <div class="product-details">
+            <div class="product-name">Apple Watch</div>
+            <div class="product-color">Blue</div>
+            <div class="product-quantity">x 1</div>
+          </div>
+          <div class="product-price">$399.00</div>
+          <button class="remove-item">×</button>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./imac.png" alt="iMac">
+          </div>
+          <div class="product-details">
+            <div class="product-name">iMac</div>
+            <div class="product-color">Green</div>
+            <div class="product-quantity">x 1</div>
+          </div>
+          <div class="product-price">$1199.00</div>
+          <button class="remove-item">×</button>
+        </div>
+
+        <div class="coupon-section">
+          <input type="text" class="coupon-input" placeholder="Enter coupon code">
+          <button class="coupon-button">Apply Coupon</button>
+        </div>
+
+        <div class="order-summary">
+          <div class="summary-line">
+            <span>Sub total</span>
+            <span>$2597.00</span>
+          </div>
+          <div class="summary-line">
+            <span>Tax</span>
+            <span>$623.28</span>
+          </div>
+          <div class="summary-total">
+            <span>Total</span>
+            <span>$3220.28</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2 class="contact-title">Contact Information</h2>
+
+        <div class="form-group">
+          <label class="form-label">First & Last name</label>
+          <input type="text" class="form-input" placeholder="Enter first & last name">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-input" placeholder="Enter email address">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Country</label>
+          <input type="text" class="form-input" placeholder="United States">
+        </div>
+
+        <button class="submit-button">Complete Order</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
