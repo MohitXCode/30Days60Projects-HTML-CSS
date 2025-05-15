@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 18/60 | In Progress: 42/60 |
+| Status | Completed: 20/60 | In Progress: 40/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -59,6 +59,8 @@ Explore each project individually and view live demos to see them in action:
 | 016 | 🐼 Panda Animation | [Live Demo](------)   | Cute panda animation with hover effects, floating, and glowing elements. |
 | 017 | 📝 Personal Blog Card | [Live Demo](------) | Blog card with floating particles, dynamic gradient background, and hover effects. |
 | 018 | 🛒 Apple Shop Checkout | [Live Demo](------)   | Modern checkout UI with product list, coupon, order summary, and contact form. |
+| 019 | 💳 Premium Credit Card UI | [Live Demo](------) | Interactive 3D credit card with glassmorphism, hover animation, and branding. |
+| 020 | ✨ Kawaii Login Page  | [Live Demo](------)   | Pastel-themed login with floating stars/hearts, glassmorphism, and sparkle effect. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
