@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.main {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    z-index: 1;
+}
+
+.nav img {
+    width: 180px;
+}
+
+.nav button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav button:hover {
+    background-color: #f40612;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.email input {
+    width: 60%;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: white;
+}
+
+.email input::placeholder {
+    color: #ccc;
+}
+
+.email button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email button:hover {
+    background-color: #f40612;
+}
+
+.features {
+    padding: 50px 10%;
+    background-color: #000;
+    border-top: 8px solid #222;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.feature.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature-text {
+    width: 50%;
+}
+
+.feature-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.feature-text h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.feature-img {
+    width: 45%;
+    position: relative;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.faq {
+    padding: 50px 10%;
+    background-color: #000;
+    border-top: 8px solid #222;
+    text-align: center;
+}
+
+.faq h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.questions {
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.question {
+    background-color: #2d2d2d;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.question-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question-header h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.question-body {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    text-align: left;
+}
+
+.question-body.show {
+    padding: 20px;
+    max-height: 500px;
+}
+
+.footer {
+    padding: 50px 15%;
+    background-color: #000;
+    border-top: 8px solid #222;
+    color: #757575;
+}
+
+.footer p {
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 950px) {
+    .nav img {
+        width: 120px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    .email {
+        flex-direction: column;
+    }
+
+    .email input {
+        width: 100%;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    .feature.reverse {
+        flex-direction: column;
+    }
+
+    .feature-text,
+    .feature-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .feature-text h1 {
+        font-size: 2rem;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
