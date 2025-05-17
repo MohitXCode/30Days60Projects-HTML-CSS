@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 20/60 | In Progress: 40/60 |
+| Status | Completed: 24/60 | In Progress: 36/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -61,6 +61,10 @@ Explore each project individually and view live demos to see them in action:
 | 018 | 🛒 Apple Shop Checkout | [Live Demo](------)   | Modern checkout UI with product list, coupon, order summary, and contact form. |
 | 019 | 💳 Premium Credit Card UI | [Live Demo](------) | Interactive 3D credit card with glassmorphism, hover animation, and branding. |
 | 020 | ✨ Kawaii Login Page  | [Live Demo](------)   | Pastel-themed login with floating stars/hearts, glassmorphism, and sparkle effect. |
+| 021 | 🎬 Netflix Landing Page | [Live Demo](------) | Fully responsive Netflix-style landing page with hero, features, FAQ, and footer. |
+| 022 | 🍎 Apple Landing Page  | [Live Demo](------)   | Apple homepage clone featuring Watch, iPhone, and product grid, all in a modern layout. |
+| 023 | 🏡 Airbnb Landing Page | [Live Demo](------) | Airbnb-inspired UI with hero section, explore cards, categories, and a sleek footer. |
+| 024 | 🎵 Spotify Premium Page  | [Live Demo](------)   | Dark-themed Spotify Premium clone with pricing cards, features, and FAQ accordion. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
