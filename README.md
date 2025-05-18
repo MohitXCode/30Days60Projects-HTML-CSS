@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 24/60 | In Progress: 36/60 |
+| Status | Completed: 26/60 | In Progress: 34/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -65,6 +65,8 @@ Explore each project individually and view live demos to see them in action:
 | 022 | 🍎 Apple Landing Page  | [Live Demo](------)   | Apple homepage clone featuring Watch, iPhone, and product grid, all in a modern layout. |
 | 023 | 🏡 Airbnb Landing Page | [Live Demo](------) | Airbnb-inspired UI with hero section, explore cards, categories, and a sleek footer. |
 | 024 | 🎵 Spotify Premium Page  | [Live Demo](------)   | Dark-themed Spotify Premium clone with pricing cards, features, and FAQ accordion. |
+| 025 | 🥤 Coca-Cola Landing Page | [Live Demo](------) | Bright, red-themed Coca-Cola page with hero, product grid, brand history timeline, and footer. |
+| 026 | 👟 Nike Landing Page | [Live Demo](------)   | Stylish Nike UI featuring Air Jordan hero section, trending products grid, newsletter signup, and modern footer. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
