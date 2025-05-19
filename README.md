@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 26/60 | In Progress: 34/60 |
+| Status | Completed: 28/60 | In Progress: 32/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -67,6 +67,8 @@ Explore each project individually and view live demos to see them in action:
 | 024 | 🎵 Spotify Premium Page  | [Live Demo](------)   | Dark-themed Spotify Premium clone with pricing cards, features, and FAQ accordion. |
 | 025 | 🥤 Coca-Cola Landing Page | [Live Demo](------) | Bright, red-themed Coca-Cola page with hero, product grid, brand history timeline, and footer. |
 | 026 | 👟 Nike Landing Page | [Live Demo](------)   | Stylish Nike UI featuring Air Jordan hero section, trending products grid, newsletter signup, and modern footer. |
+| 027 | 🛒 Amazon India Landing Page | [Live Demo](------) | A bold and responsive Amazon India-inspired UI with a full-width hero, category sections, product highlights, and footer. |
+| 028 | 👗 Myntra Fashion Landing Page | [Live Demo](------)   | Trendy Myntra-style landing page with fashion-forward layout, vibrant banners, product sections, and a sleek footer. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
