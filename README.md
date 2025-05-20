@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 28/60 | In Progress: 32/60 |
+| Status | Completed: 30/60 | In Progress: 30/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -69,6 +69,8 @@ Explore each project individually and view live demos to see them in action:
 | 026 | 👟 Nike Landing Page | [Live Demo](------)   | Stylish Nike UI featuring Air Jordan hero section, trending products grid, newsletter signup, and modern footer. |
 | 027 | 🛒 Amazon India Landing Page | [Live Demo](------) | A bold and responsive Amazon India-inspired UI with a full-width hero, category sections, product highlights, and footer. |
 | 028 | 👗 Myntra Fashion Landing Page | [Live Demo](------)   | Trendy Myntra-style landing page with fashion-forward layout, vibrant banners, product sections, and a sleek footer. |
+| 029 | 🧱 LEGO Landing Page  | [Live Demo](------) | A fun, colorful LEGO-inspired landing page with blocky sections, bold typography, and playful vibes. |
+| 030 | 🏎️ Hot Wheels Landing Page | [Live Demo](------)   |  A high-speed Hot Wheels-inspired landing page with racing elements, vibrant colors, and sleek layout. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
