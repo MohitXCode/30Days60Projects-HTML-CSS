@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 30/60 | In Progress: 30/60 |
+| Status | Completed: 32/60 | In Progress: 28/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -71,6 +71,8 @@ Explore each project individually and view live demos to see them in action:
 | 028 | 👗 Myntra Fashion Landing Page | [Live Demo](------)   | Trendy Myntra-style landing page with fashion-forward layout, vibrant banners, product sections, and a sleek footer. |
 | 029 | 🧱 LEGO Landing Page  | [Live Demo](------) | A fun, colorful LEGO-inspired landing page with blocky sections, bold typography, and playful vibes. |
 | 030 | 🏎️ Hot Wheels Landing Page | [Live Demo](------)   |  A high-speed Hot Wheels-inspired landing page with racing elements, vibrant colors, and sleek layout. |
+| 031 | 👚 H&M Landing Page  | [Live Demo](------) | A sleek, modern H&M-inspired landing page featuring clean layout, soft color palette, and elegant typography. |
+| 032 | 👗 Zara Landing Page | [Live Demo](------)   |  A chic, minimalist Zara-inspired landing page with sophisticated design, neutral tones, and elegant typography. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
