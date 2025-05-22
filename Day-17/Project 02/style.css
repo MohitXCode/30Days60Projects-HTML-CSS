@@ -1,0 +1,334 @@
+:root {
+    --mc-red: #DA291C;
+    --mc-yellow: #FFC72C;
+    --mc-white: #FFFFFF;
+    --mc-black: #27251F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--mc-black);
+}
+
+nav {
+    background: var(--mc-red);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--mc-white);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--mc-yellow);
+}
+
+.order-btn {
+    background: var(--mc-yellow);
+    color: var(--mc-red);
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: transform 0.3s;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+}
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('https://s7d1.scene7.com/is/image/mcdonalds/McCrispyStrip_COM_1Pub_r1:1-column-desktop?resmode=sharp2') center/cover;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+    color: var(--mc-white);
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-primary {
+    background: var(--mc-yellow);
+    color: var(--mc-red);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--mc-white);
+    border: 2px solid var(--mc-white);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.menu h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.5rem;
+    color: var(--mc-red);
+    margin-bottom: 2rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    background: var(--mc-white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.menu-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu-content {
+    padding: 1.5rem;
+}
+
+.menu-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.deals {
+    background: var(--mc-red);
+    padding: 4rem 2rem;
+    text-align: center;
+    color: var(--mc-white);
+}
+
+.deals h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.deal-card {
+    background: var(--mc-white);
+    color: var(--mc-black);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.deal-card h3 {
+    font-size: 2rem;
+    color: var(--mc-red);
+    margin-bottom: 1rem;
+}
+
+.deal-btn {
+    background: var(--mc-yellow);
+    color: var(--mc-red);
+    margin-top: 1.5rem;
+}
+
+.app {
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.app-img {
+    flex: 1;
+    min-width: 300px;
+}
+
+.app-img img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.app-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.app-content h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.5rem;
+    color: var(--mc-red);
+    margin-bottom: 1rem;
+}
+
+.app-badges {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.badge {
+    height: 50px;
+}
+
+footer {
+    background: var(--mc-black);
+    color: var(--mc-white);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: var(--mc-white);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: var(--mc-yellow);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.social-icons svg,
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.social-icons img {
+    height: 30px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--mc-red);
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero {
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-btns {
+        justify-content: center;
+    }
+}
