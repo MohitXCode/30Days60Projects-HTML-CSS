@@ -73,6 +73,8 @@ Explore each project individually and view live demos to see them in action:
 | 030 | 🏎️ Hot Wheels Landing Page | [Live Demo](------)   |  A high-speed Hot Wheels-inspired landing page with racing elements, vibrant colors, and sleek layout. |
 | 031 | 👚 H&M Landing Page  | [Live Demo](------) | A sleek, modern H&M-inspired landing page featuring clean layout, soft color palette, and elegant typography. |
 | 032 | 👗 Zara Landing Page | [Live Demo](------)   |  A chic, minimalist Zara-inspired landing page with sophisticated design, neutral tones, and elegant typography. |
+| 033 | ☕ Starbucks Landing Page  | [Live Demo](------) | A cozy and vibrant Starbucks-inspired landing page with coffee-themed visuals, earthy tones, and a warm vibe. |
+| 034 | 🍔 McDonald's Landing Page | [Live Demo](------)   |  A bold, energetic McDonald's-inspired landing page with vibrant colors, playful UI elements, and retro fonts. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
