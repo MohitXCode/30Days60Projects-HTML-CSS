@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jupiter - Solana DEX Aggregator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="background-container">
+    <div class="floating-orbs">
+      <div class="orb"></div>
+      <div class="orb"></div>
+      <div class="orb"></div>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="#" class="logo">
+        <img src="https://jup.ag/_next/image?url=%2Fsvg%2Fjupiter-logo.png&w=32&q=75" alt="Jupiter">
+        Jup.ag
+      </a>
+      <div class="nav-links">
+        <a href="#" class="nav-link active">Spot <span class="nav-badge">NEW</span></a>
+        <a href="#" class="nav-link">Pro</a>
+        <a href="#" class="nav-link">Perps <span class="nav-badge">NEW</span></a>
+        <a href="#" class="nav-link">Portfolio</a>
+        <a href="#" class="nav-link">More</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <div class="search-container">
+        <div class="search-icon">🔍</div>
+        <input type="text" class="search-box" placeholder="Search token or address">
+      </div>
+      <button class="settings-btn">⚙️</button>
+      <button class="connect-btn">Connect</button>
+    </div>
+  </nav>
+  <div class="main-container">
+    <div class="trading-interface">
+      <div class="status-ticker">
+        <div class="cooking-indicator">
+          <div class="pulse-dot"></div>
+          🔥 Cooking
+        </div>
+        <div class="ticker-tokens">
+          <div class="ticker-item">#1 🧌 TROLL</div>
+          <div class="ticker-item">#2 🏠 House</div>
+          <div class="ticker-item">#3 🔵 SEND</div>
+          <div class="ticker-item">#4 🧌 TROLL</div>
+          <div class="ticker-item">#5 🌙 MUZE</div>
+          <div class="ticker-item">#6 🔥 Cooking</div>
+        </div>
+      </div>
+      <div class="trade-tabs">
+        <button class="tab-btn active">⚡ Instant</button>
+        <button class="tab-btn">📍 Trigger</button>
+        <button class="tab-btn">🔄 Recurring</button>
+      </div>
+      <div class="speed-setting">
+        <div class="speed-label">
+          <span>⚡</span>
+          <span>Ultra V2</span>
+        </div>
+        <div class="speed-dropdown">
+          <span>🔄</span>
+        </div>
+      </div>
+      <div class="trade-section">
+        <div class="section-label">Selling</div>
+        <div class="token-input">
+          <div class="token-row">
+            <div class="token-selector">
+              <img
+                src="https://wsrv.nl/?w=48&h=48&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsolana-labs%2Ftoken-list%2Fmain%2Fassets%2Fmainnet%2FEPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v%2Flogo.png"
+                alt="USDC" class="token-icon">
+              <span class="token-symbol">USDC</span>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <input type="text" class="amount-input" placeholder="0.00" value="0.00">
+          </div>
+          <div class="balance-row">
+            <span class="usd-value">$0</span>
+            <div class="balance-actions">
+              <button class="balance-btn">⇅</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swap-button-container">
+        <button class="swap-btn">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M8 0a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 6.293V.5A.5.5 0 0 1 8 0zm-.5 11.707l-2.146 2.147a.5.5 0 0 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 11.707V15.5a.5.5 0 0 1-1 0v-3.793z" />
+          </svg>
+        </button>
+      </div>
+      <div class="trade-section">
+        <div class="section-label">Buying</div>
+        <div class="token-input">
+          <div class="token-row">
+            <div class="token-selector">
+              <img
+                src="https://wsrv.nl/?w=48&h=48&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsolana-labs%2Ftoken-list%2Fmain%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png"
+                alt="SOL" class="token-icon">
+              <span class="token-symbol">SOL</span>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <input type="text" class="amount-input" placeholder="0.00" value="0.00">
+          </div>
+          <div class="balance-row">
+            <span class="usd-value">$0</span>
+            <div class="balance-actions">
+              <button class="balance-btn">🔄</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="main-action-btn">Connect</button>
+      <div class="chart-toggles">
+        <button class="toggle-btn">📊 Show Chart</button>
+        <button class="toggle-btn">📈 Show History</button>
+      </div>
+</body>
+
+</html>
