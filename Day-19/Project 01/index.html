@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+    <div class="min-h-screen flex flex-col">
+        <header class="flex items-center justify-between border-b border-gray-200 px-4 py-3 bg-white sticky top-0 z-10">
+            <div class="flex items-center space-x-3">
+                <svg aria-hidden="true" class="text-gray-900" fill="currentColor" height="24" viewBox="0 0 16 16"
+                    width="24">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.22 2.2.82a7.54 7.54 0 012 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+                <span class="font-semibold text-lg">Dashboard</span>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <button aria-label="Search"
+                    class="text-gray-500 hover:text-gray-700 transition-colors duration-200 p-1 rounded-full hover:bg-gray-100">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"></path>
+                    </svg>
+                </button>
+
+                <button aria-label="Notifications"
+                    class="text-gray-500 hover:text-gray-700 transition-colors duration-200 p-1 rounded-full hover:bg-gray-100 relative">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                        </path>
+                    </svg>
+                    <span class="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full"></span>
+                </button>
+
+                <button aria-label="Add new"
+                    class="text-gray-500 hover:text-gray-700 transition-colors duration-200 p-1 rounded-full hover:bg-gray-100">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"></path>
+                    </svg>
+                </button>
+
+                <button aria-label="User menu" class="text-gray-500 hover:text-gray-700 transition-colors duration-200">
+                    <img alt="User avatar" class="rounded-full w-8 h-8"
+                        src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJwdjZ0NG0zbTY5cTd2N3N0dzcxaXlpa3hlYmhsaHViMHp4dWo0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ecuMzbygnbtEjNFu3L/giphy.gif">
+                </button>
+            </div>
+        </header>
+
+        <div class="flex flex-1 overflow-hidden">
+            <aside class="w-64 border-r border-gray-200 bg-white px-4 py-6 overflow-y-auto">
+                <div class="mb-6 fade-in">
+                    <label class="block mb-2 text-xs font-semibold text-gray-600">Repositories</label>
+                    <div class="relative">
+                        <input
+                            class="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            placeholder="Find a repository..." type="text">
+                        <svg class="absolute right-3 top-2.5 w-4 h-4 text-gray-400" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <ul class="space-y-2">
+                    <li class="fade-in" style="animation-delay: 0.1s;">
+                        <a class="flex items-center space-x-2 px-2 py-1.5 rounded-md bg-blue-50 text-blue-700 font-medium hover:bg-blue-100 transition-colors duration-200"
+                            href="#">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 7v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3m-6 4h6"></path>
+                            </svg>
+                            <span>vercel/next.js</span>
+                        </a>
+                    </li>
+                    <li class="fade-in" style="animation-delay: 0.2s;">
+                        <a class="flex items-center space-x-2 px-2 py-1.5 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                            href="#">
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 7v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3m-6 4h6"></path>
+                            </svg>
+                            <span>facebook/react</span>
+                        </a>
+                    </li>
+                    <li class="fade-in" style="animation-delay: 0.3s;">
+                        <a class="flex items-center space-x-2 px-2 py-1.5 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                            href="#">
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 7v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3m-6 4h6"></path>
+                            </svg>
+                            <span>tailwindlabs/tailwindcss</span>
+                        </a>
+                    </li>
+                    <li class="fade-in" style="animation-delay: 0.4s;">
+                        <a class="flex items-center space-x-2 px-2 py-1.5 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                            href="#">
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 7v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3m-6 4h6"></path>
+                            </svg>
+                            <span>reduxjs/redux</span>
+                        </a>
+                    </li>
+                    <li class="fade-in" style="animation-delay: 0.5s;">
+                        <a class="flex items-center space-x-2 px-2 py-1.5 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                            href="#">
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 7v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3m-6 4h6"></path>
+                            </svg>
+                            <span>nodejs/node</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="flex-1 overflow-y-auto px-6 py-6 max-w-5xl mx-auto">
+                <h1 class="text-xl font-semibold mb-6">Home</h1>
+                <div class="flex flex-wrap gap-3 mb-6">
+                    <button
+                        class="flex items-center text-xs font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-full px-3 py-1.5 transition-colors duration-200">
+                        <i class="fas fa-code-branch mr-1.5 text-gray-500"></i>
+                        main
+                    </button>
+                    <button
+                        class="flex items-center text-xs font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-full px-3 py-1.5 transition-colors duration-200">
+                        <i class="fas fa-code-pull-request mr-1.5 text-gray-500"></i>
+                        10 open pull requests
+                    </button>
+                    <button
+                        class="flex items-center text-xs font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-full px-3 py-1.5 transition-colors duration-200">
+                        <i class="fas fa-exclamation-circle mr-1.5 text-gray-500"></i>
+                        3 open issues
+                    </button>
+                    <button
+                        class="flex items-center text-xs font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-full px-3 py-1.5 transition-colors duration-200">
+                        <i class="fas fa-file-alt mr-1.5 text-gray-500"></i>
+                        Create README
+                    </button>
+                </div>
+                <div class="flex flex-wrap gap-3 mb-6">
+                    <button
+                        class="flex items-center text-xs font-medium text-blue-700 bg-blue-50 hover:bg-blue-100 rounded-full px-3 py-1.5 transition-colors duration-200">
+                        <i class="fas fa-info-circle mr-1.5"></i>
+                        Learn about recent updates
+                    </button>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+                    <div class="border border-gray-200 rounded-lg p-4 bg-white card-shadow hover-grow fade-in">
+                        <h2 class="font-semibold mb-3 text-gray-900">Notifications</h2>
+                        <p class="text-sm text-gray-600 mb-3">
+                            You're watching this repository. Receive notifications for all discussions.
+                        </p>
+                        <div class="space-y-2 mb-3">
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="notify" checked class="form-radio text-blue-600">
+                                <span class="text-sm">Watching</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="notify" class="form-radio text-blue-600">
+                                <span class="text-sm">Not watching</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="notify" class="form-radio text-blue-600">
+                                <span class="text-sm">Ignore</span>
+                            </label>
+                        </div>
+                        <button
+                            class="text-xs font-medium bg-green-600 hover:bg-green-700 text-white rounded-md px-3 py-1.5 transition-colors duration-200">
+                            Customize notifications
+                        </button>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-4 bg-white card-shadow hover-grow fade-in"
+                        style="animation-delay: 0.1s;">
+                        <h2 class="font-semibold mb-3 text-gray-900">Code Changes</h2>
+                        <pre class="bg-gray-50 rounded-md p-3 text-xs overflow-x-auto mb-3 font-mono">
+<span class="text-green-600">+</span> <span class="text-blue-600">import</span> React <span class="text-blue-600">from</span> <span class="text-red-500">'react'</span>;
+<span class="text-green-600">+</span> <span class="text-blue-600">import</span> Button <span class="text-blue-600">from</span> <span class="text-red-500">'./Button'</span>;</pre>
+                        <button
+                            class="text-xs font-medium bg-green-600 hover:bg-green-700 text-white rounded-md px-3 py-1.5 transition-colors duration-200">
+                            Commit changes
+                        </button>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-4 bg-white card-shadow hover-grow fade-in"
+                        style="animation-delay: 0.2s;">
+                        <h2 class="font-semibold mb-3 text-gray-900">Start Coding</h2>
+                        <p class="text-sm text-gray-600 mb-3">
+                            Create new files or clone the repository to work locally.
+                        </p>
+                        <button
+                            class="text-xs font-medium bg-green-600 hover:bg-green-700 text-white rounded-md px-3 py-1.5 transition-colors duration-200">
+                            Create new file
+                        </button>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-4 bg-white card-shadow hover-grow fade-in"
+                        style="animation-delay: 0.3s;">
+                        <h2 class="font-semibold mb-3 text-gray-900">Pull Requests</h2>
+                        <p class="text-sm text-gray-600 mb-3">
+                            Start a pull request to propose changes or discuss with team members.
+                        </p>
+                        <button
+                            class="text-xs font-medium bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md px-3 py-1.5 transition-colors duration-200">
+                            New pull request
+                        </button>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-4 bg-white card-shadow hover-grow fade-in"
+                        style="animation-delay: 0.4s;">
+                        <h2 class="font-semibold mb-3 text-gray-900">Watch & Star</h2>
+                        <p class="text-sm text-gray-600 mb-3">
+                            Use watch and star buttons to track repositories you care about.
+                        </p>
+                        <div class="flex space-x-2">
+                            <button
+                                class="text-xs font-medium bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md px-3 py-1.5 transition-colors duration-200">
+                                <i class="far fa-eye mr-1"></i> Watch
+                            </button>
+                            <button
+                                class="text-xs font-medium bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md px-3 py-1.5 transition-colors duration-200">
+                                <i class="far fa-star mr-1"></i> Star
+                            </button>
+                        </div>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-4 bg-white card-shadow hover-grow fade-in"
+                        style="animation-delay: 0.5s;">
+                        <h2 class="font-semibold mb-3 text-gray-900">Your Profile</h2>
+                        <img alt="Profile video" class="rounded-md mb-3 w-full"
+                            src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJwdjZ0NG0zbTY5cTd2N3N0dzcxaXlpa3hlYmhsaHViMHp4dWo0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ecuMzbygnbtEjNFu3L/giphy.gif">
+                        <p class="text-sm text-gray-600 mb-3">
+                            Follow the success key to the GitHub star. Learn to build better software.
+                        </p>
+                        <a href="#" class="text-xs font-medium text-blue-600 hover:underline">
+                            Why GitHub matters
+                        </a>
+                    </div>
+                </div>
+                <h2 class="text-lg font-semibold mb-3">Recent Activity</h2>
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="divide-y divide-gray-200 max-h-[500px] overflow-y-auto">
+                        <div class="p-4 bg-gray-50 hover:bg-white transition-colors duration-200 fade-in">
+                            <div class="flex items-start space-x-3">
+                                <img alt="Lauren Smith" class="rounded-full w-8 h-8 mt-1"
+                                    src="https://storage.googleapis.com/a1aa/image/766620fa-0956-4c09-f19b-00d9c7ad1c7e.jpg">
+                                <div class="flex-1">
+                                    <div class="flex items-center justify-between">
+                                        <p class="font-medium text-gray-900">Lauren Smith</p>
+                                        <span class="text-xs text-gray-500">2 hours ago</span>
+                                    </div>
+                                    <p class="text-sm text-gray-700 mt-1">
+                                        <a href="#"
+                                            class="text-blue-600 hover:underline font-medium">laurensmith/next.js</a>
+                                        opened a new issue: <span class="font-medium">Bug in UI</span>
+                                    </p>
+                                    <div class="flex space-x-4 mt-2 text-xs text-gray-500">
+                                        <button class="flex items-center hover:text-blue-600">
+                                            <i class="far fa-thumbs-up mr-1"></i> 3
+                                        </button>
+                                        <button class="flex items-center hover:text-red-600">
+                                            <i class="far fa-thumbs-down mr-1"></i> 0
+                                        </button>
+                                        <button class="flex items-center hover:text-gray-700">
+                                            <i class="far fa-comment mr-1"></i> Comment
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-white hover:bg-gray-50 transition-colors duration-200 fade-in"
+                            style="animation-delay: 0.1s;">
+                            <div class="flex items-start space-x-3">
+                                <img alt="Web Dev" class="rounded-full w-8 h-8 mt-1"
+                                    src="https://storage.googleapis.com/a1aa/image/996a2335-b519-453a-ae79-668e9b4e92d1.jpg">
+                                <div class="flex-1">
+                                    <div class="flex items-center justify-between">
+                                        <p class="font-medium text-gray-900">webdev@github</p>
+                                        <span class="text-xs text-gray-500">1 day ago</span>
+                                    </div>
+                                    <p class="text-sm text-gray-700 mt-1">
+                                        <a href="#" class="text-blue-600 hover:underline font-medium">webdev/next.js</a>
+                                        merged pull request #123
+                                    </p>
+                                    <div class="flex space-x-4 mt-2 text-xs text-gray-500">
+                                        <button class="flex items-center hover:text-blue-600">
+                                            <i class="far fa-thumbs-up mr-1"></i> 10
+                                        </button>
+                                        <button class="flex items-center hover:text-red-600">
+                                            <i class="far fa-thumbs-down mr-1"></i> 1
+                                        </button>
+                                        <button class="flex items-center hover:text-gray-700">
+                                            <i class="far fa-comment mr-1"></i> Comment
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-gray-50 hover:bg-white transition-colors duration-200 fade-in"
+                            style="animation-delay: 0.2s;">
+                            <div class="flex items-start space-x-3">
+                                <img alt="John Smith" class="rounded-full w-8 h-8 mt-1"
+                                    src="https://storage.googleapis.com/a1aa/image/c17efa86-300a-4934-8b97-f0111f266b10.jpg">
+                                <div class="flex-1">
+                                    <div class="flex items-center justify-between">
+                                        <p class="font-medium text-gray-900">johnsmith</p>
+                                        <span class="text-xs text-gray-500">3 days ago</span>
+                                    </div>
+                                    <p class="text-sm text-gray-700 mt-1">
+                                        <a href="#"
+                                            class="text-blue-600 hover:underline font-medium">johnsmith/next.js</a>
+                                        commented on issue #456
+                                    </p>
+                                    <div class="flex space-x-4 mt-2 text-xs text-gray-500">
+                                        <button class="flex items-center hover:text-blue-600">
+                                            <i class="far fa-thumbs-up mr-1"></i> 5
+                                        </button>
+                                        <button class="flex items-center hover:text-red-600">
+                                            <i class="far fa-thumbs-down mr-1"></i> 0
+                                        </button>
+                                        <button class="flex items-center hover:text-gray-700">
+                                            <i class="far fa-comment mr-1"></i> Comment
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-white text-center">
+                            <button class="text-sm font-medium text-blue-600 hover:underline">
+                                View more activity
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <aside class="w-80 border-l border-gray-200 px-4 py-6 bg-white overflow-y-auto">
+                <div class="space-y-6">
+                    <div class="bg-gradient-to-br from-blue-800 to-blue-600 rounded-lg p-4 text-white fade-in">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="font-semibold">Agent mode: run and done</h3>
+                            <button class="text-white hover:text-blue-200">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs mb-4 opacity-90">
+                            Agent mode is now active. Your code will be automatically reviewed and merged.
+                        </p>
+                        <button
+                            class="text-xs font-medium bg-white text-blue-800 hover:bg-blue-50 rounded-md px-3 py-1.5 transition-colors duration-200">
+                            Open in VS Code
+                        </button>
+                    </div>
+                    <div class="fade-in" style="animation-delay: 0.1s;">
+                        <h3 class="font-semibold text-sm mb-2 text-gray-900">Latest Stars</h3>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fas fa-star text-yellow-400 mt-0.5 mr-2 text-xs"></i>
+                                <div>
+                                    <a href="#" class="text-blue-600 hover:underline font-medium">vercel/next.js</a>
+                                    <p class="text-xs text-gray-500">A React framework for production</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-star text-yellow-400 mt-0.5 mr-2 text-xs"></i>
+                                <div>
+                                    <a href="#" class="text-blue-600 hover:underline font-medium">facebook/react</a>
+                                    <p class="text-xs text-gray-500">JavaScript library for building UIs</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-star text-yellow-400 mt-0.5 mr-2 text-xs"></i>
+                                <div>
+                                    <a href="#"
+                                        class="text-blue-600 hover:underline font-medium">tailwindlabs/tailwindcss</a>
+                                    <p class="text-xs text-gray-500">Utility-first CSS framework</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="fade-in" style="animation-delay: 0.2s;">
+                        <h3 class="font-semibold text-sm mb-2 text-gray-900">Explore Repositories</h3>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li>
+                                <a href="#" class="text-blue-600 hover:underline font-medium">vercel/next.js</a>
+                                <p class="text-xs text-gray-500">The React Framework</p>
+                            </li>
+                            <li>
+                                <a href="#" class="text-blue-600 hover:underline font-medium">facebook/react</a>
+                                <p class="text-xs text-gray-500">JavaScript UI library</p>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-blue-600 hover:underline font-medium">tailwindlabs/tailwindcss</a>
+                                <p class="text-xs text-gray-500">Utility-first CSS</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="fade-in" style="animation-delay: 0.3s;">
+                        <h3 class="font-semibold text-sm mb-2 text-gray-900">Stock & Times</h3>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li class="flex justify-between">
+                                <span>Market open:</span>
+                                <span class="font-medium">9:30 AM - 4:00 PM EST</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Next earnings:</span>
+                                <span class="font-medium">2 weeks</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Dividend yield:</span>
+                                <span class="font-medium">1.5%</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fade-in" style="animation-delay: 0.4s;">
+                        <h3 class="font-semibold text-sm mb-2 text-gray-900">Projects</h3>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li>
+                                <a href="#" class="text-blue-600 hover:underline font-medium">nextjs/next.js</a>
+                                <p class="text-xs text-gray-500">Production React framework</p>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-blue-600 hover:underline font-medium">tailwindlabs/tailwindcss</a>
+                                <p class="text-xs text-gray-500">CSS framework</p>
+                            </li>
+                            <li>
+                                <a href="#" class="text-blue-600 hover:underline font-medium">vercel/next.js</a>
+                                <p class="text-xs text-gray-500">React framework</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>
