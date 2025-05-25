@@ -32,7 +32,7 @@ Each project is designed to be:
 
 ## 📋 Progress Tracker
 
-| Status | Completed: 36/60 | In Progress: 24/60 |
+| Status | Completed: 38/60 | In Progress: 22/60 |
 |--------|-----------------|-------------------|
 
 ## 🖼️ Project Showcase
@@ -75,8 +75,10 @@ Explore each project individually and view live demos to see them in action:
 | 032 | 👗 Zara Landing Page | [Live Demo](------)   |  A chic, minimalist Zara-inspired landing page with sophisticated design, neutral tones, and elegant typography. |
 | 033 | ☕ Starbucks Landing Page  | [Live Demo](------) | A cozy and vibrant Starbucks-inspired landing page with coffee-themed visuals, earthy tones, and a warm vibe. |
 | 034 | 🍔 McDonald's Landing Page | [Live Demo](------)   |  A bold, energetic McDonald's-inspired landing page with vibrant colors, playful UI elements, and retro fonts. |
-| 035 | 🦄 Uniswap Landing + Swap Page   | [Live Demo](------) | A pixel-perfect Uniswap-inspired landing and swap interface with smooth gradients and responsive layout. |
+| 035 | 🦄 Uniswap Landing + Swap Page  | [Live Demo](------) | A pixel-perfect Uniswap-inspired landing and swap interface with smooth gradients and responsive layout. |
 | 036 | 🚀 Jupiter DEX Aggregator UI  | [Live Demo](------)   |  A sleek, glassmorphic replica of the Jup.ag swap interface with pixel-perfect precision. |
+| 037 | 🧑‍💻 GitHub Dashboard Clone | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
+| 038 | 💬 Stack Overflow Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
