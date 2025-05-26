@@ -79,6 +79,8 @@ Explore each project individually and view live demos to see them in action:
 | 036 | 🚀 Jupiter DEX Aggregator UI  | [Live Demo](------)   |  A sleek, glassmorphic replica of the Jup.ag swap interface with pixel-perfect precision. |
 | 037 | 🧑‍💻 GitHub Dashboard Clone | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
 | 038 | 💬 Stack Overflow Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
+| 039 | 🧑‍💻 PlayStation PS5 | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
+| 040 | 💬 Discord Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
