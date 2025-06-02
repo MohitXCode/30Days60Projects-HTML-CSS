@@ -79,8 +79,8 @@ Explore each project individually and view live demos to see them in action:
 | 036 | 🚀 Jupiter DEX Aggregator UI  | [Live Demo](------)   |  A sleek, glassmorphic replica of the Jup.ag swap interface with pixel-perfect precision. |
 | 037 | 🧑‍💻 GitHub Dashboard Clone | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
 | 038 | 💬 Stack Overflow Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
-| 039 | 🧑‍💻 PlayStation PS5 | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
-| 040 | 💬 Discord Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
+| 039 | 🧑‍💻 PlayStation PS5 | [Live Demo](------) | A responsive PlayStation 5 product landing page featuring hero section, product features grid, and detailed footer navigation with Sony branding.  |
+| 040 | 🎮 Xbox Game Pass | [Live Demo](------)   |  An Xbox Game Pass gaming portal with hero banner, game showcase grid, and responsive navigation, featuring game promotions and social links. |
 | 041 | 🧑‍💻 PlayStation PS5 | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
 | 042 | 💬 Discord Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
 | 043 | 🧑‍💻 PlayStation PS5 | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
