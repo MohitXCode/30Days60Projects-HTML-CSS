@@ -97,6 +97,8 @@ Explore each project individually and view live demos to see them in action:
 | 050 | 💬 Discord Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
 | 049 | 🧑‍💻 PlayStation PS5 | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
 | 050 | 💬 Discord Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
+| 051 | 🧑‍💻 PlayStation PS5 | [Live Demo](------) | A responsive GitHub-style developer dashboard UI with repository panels, notifications, and recent activity feed. |
+| 052 | 💬 Discord Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
