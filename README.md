@@ -105,6 +105,7 @@ Explore each project individually and view live demos to see them in action:
 | 052 | 💬 Discord Clone | [Live Demo](------)   |  A pixel-perfect replica of the Stack Overflow questions page with sidebar nav, filters, and featured content. |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
+| 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
 ## 💻 Technologies Used
