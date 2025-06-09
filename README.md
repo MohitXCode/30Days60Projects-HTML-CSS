@@ -106,6 +106,7 @@ Explore each project individually and view live demos to see them in action:
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
 | 00 | 🎨 Coming Soon | [In Progress] | - |
+| 00 | 🎨 Coming Soon | [In Progress] | - |
 | ... | ... | ... | ... |
 
 ## 💻 Technologies Used
